@@ -46,10 +46,12 @@ return packer.startup(function(use)
 	use 	'wbthomason/packer.nvim'
 	use 	'nvim-lua/popup.nvim'
 	use	'nvim-lua/plenary.nvim'
-	use 	'windwp/nvim-autopairs'
 	use	'ellisonleao/gruvbox.nvim'
-	use	'nvim-lualine/lualine.nvim'
-
+	use 	'rstacruz/vim-closer'
+	use {
+		  'nvim-lualine/lualine.nvim',
+		    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+	    }
 
 
 	-- Automatically setup your config after cloning packer.nvim

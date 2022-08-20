@@ -1,2 +1,4 @@
 require('plugins')
-require('settings')
+require('options')
+require('lualine').setup()
+
