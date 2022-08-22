@@ -2,7 +2,8 @@ require "user.options"
 require "user.plugins"
 require "user.colorscheme"
 require "user.cmp"
-require "user.keymappings"
+require "user.autopairs"
+-- require "user.keymappings"
 require('lualine').setup {
     options = {
 	icons_enabled = false,

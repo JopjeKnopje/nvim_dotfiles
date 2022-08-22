@@ -45,8 +45,9 @@ return packer.startup(function(use)
 	-- Plugins here
 	use 	'wbthomason/packer.nvim'
 	use 	'nvim-lua/popup.nvim'
-	use	'nvim-lua/plenary.nvim'
-	use 	'rstacruz/vim-closer'
+	use		'nvim-lua/plenary.nvim'
+	use 	'windwp/nvim-autopairs'
+	
 
 	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 	use {
