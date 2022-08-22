@@ -47,28 +47,30 @@ return packer.startup(function(use)
 	use 	'nvim-lua/popup.nvim'
 	use	'nvim-lua/plenary.nvim'
 	use 	'rstacruz/vim-closer'
+
+	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 	use {
 		  'nvim-lualine/lualine.nvim',
 		    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	    }
+	
 
 	-- color themes
-	use	'ellisonleao/gruvbox.nvim'
+    	use	'morhetz/gruvbox'
 	use 	'LunarVim/darkplus.nvim'
 
 	-- completion plugins
-	use	'hrsh7th/nvim-cmp'
-	use	'hrsh7th/cmp-buffer'
-	use	'hrsh7th/cmp-path'
-	use	'hrsh7th/cmp-cmdline'
-	use	'saadparwaiz1/cmp_luasnip'
+	--use	'hrsh7th/nvim-cmp'
+	--use	'hrsh7th/cmp-buffer'
+	--use	'hrsh7th/cmp-path'
+	--use	'hrsh7th/cmp-cmdline'
+	--use	'saadparwaiz1/cmp_luasnip'
 
-	use	'L3MON4D3/LuaSnip'
-	use	'rafamadriz/friendly-snippets'
+	--use	'L3MON4D3/LuaSnip'
+	--use	'rafamadriz/friendly-snippets'
 
 	-- Automatically setup your config after cloning packer.nvim
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
 end)
-
