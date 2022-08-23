@@ -5,6 +5,6 @@ require "user.cmp"
 require "user.autopairs"
 require "user.nvim-tree"
 require "user.keymappings"
-require('bufferline').setup()
 require "user.lualine"
+require "user.bufferline"
 require "user.autocmd"
