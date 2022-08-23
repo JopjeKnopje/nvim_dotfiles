@@ -4,7 +4,7 @@ require "user.colorscheme"
 require "user.cmp"
 require "user.autopairs"
 require "user.nvim-tree"
--- require "user.keymappings"
+require "user.keymappings"
 require('bufferline').setup()
 require "user.lualine"
 require "user.autocmd"
