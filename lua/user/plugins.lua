@@ -47,7 +47,9 @@ return packer.startup(function(use)
 	use 	'nvim-lua/popup.nvim'
 	use		'nvim-lua/plenary.nvim'
 	use 	'windwp/nvim-autopairs'
-	
+	use		'kyazdani42/nvim-tree.lua'	
+	use		'kyazdani42/nvim-web-devicons'	
+
 
 	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 	use {
