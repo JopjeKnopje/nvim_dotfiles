@@ -59,7 +59,8 @@ return packer.startup(function(use)
 
 	
 	-- color themes
-    	use	'morhetz/gruvbox'
+   	use		'morhetz/gruvbox'
+	use 	'navarasu/onedark.nvim'  
 	use 	'LunarVim/darkplus.nvim'
 
 	-- completion plugins
