@@ -5,7 +5,7 @@ local opts = { noremap = true, silent = true }
 vim.g.mapleader = " "
 
 -- compile script stuff
-keymap("", "<leader>r", ":w | :!./compile.sh % <CR>", opts)
+keymap("", "<leader>r", ":w | :!../compile.sh % <CR>", opts)
 
 
 -- nvim tree mappings

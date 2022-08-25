@@ -62,6 +62,7 @@ return packer.startup(function(use)
    	use		'morhetz/gruvbox'
 	use 	'navarasu/onedark.nvim'  
 	use 	'LunarVim/darkplus.nvim'
+	use		'JopjeKnopje/42header_codam'
 
 	-- completion plugins
 	--use	'hrsh7th/nvim-cmp'
