@@ -49,6 +49,7 @@ return packer.startup(function(use)
 	use 	'windwp/nvim-autopairs'
 	use		'kyazdani42/nvim-tree.lua'	
 	use		'kyazdani42/nvim-web-devicons'	
+	use		'numToStr/Comment.nvim'
 
 
 	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
@@ -57,7 +58,6 @@ return packer.startup(function(use)
 		    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	    }
 
-	
 	-- color themes
    	use		'morhetz/gruvbox'
 	use 	'navarasu/onedark.nvim'  
