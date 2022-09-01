@@ -7,6 +7,7 @@ vim.g.mapleader = " "
 -- compile script stuff
 keymap("", "<leader>R", ":w | :!../compile.sh % <CR>", opts)
 keymap("", "<leader>r", ":wa | :!make <CR>", opts)
+keymap("", "<leader>t", ":wa | :!make run <CR>", opts)
 
 
 -- nvim tree mappings
